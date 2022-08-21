@@ -1,0 +1,47 @@
+//fun main(args: Array<String>) {
+   // println("Hello World!")
+
+    // Try adding program arguments via Run/Debug configuration.
+    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
+   // println("Program arguments: ${args.joinToString()}")
+//}
+fun main(){
+        val a=10
+            val b=19
+//            val maxvalue: Int
+//            if(a>b){
+//                    maxvalue=a
+//            }
+//            else{
+//                    maxvalue=b
+//            }
+//            println(maxvalue)
+            //in one line statement
+
+           // println(maxValue+"Next OutPut")
+            val c=23
+            val d=23
+//            if(c>d){
+//                    println("c is greater")
+//            }
+//            else if(d>c){
+//                    println("d is greater")
+//            }
+//            else{
+//                    println("both are equal")
+//            }
+            when{
+                    c>d -> println("c is the greater")
+                    d>c -> println("d is the greater")
+                    else -> println("both are equals")
+            }
+
+            val num=3
+            when(num) {
+                    0-> println("Zero")
+                    1-> println("One")
+                    2-> println("Two")
+                    3-> println("Three")
+            }
+
+}
